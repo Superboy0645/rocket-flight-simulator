@@ -49,5 +49,5 @@ drift ~1.76 m, total flight time ~12.1 s.
 
 The PID controller's integral term causes the fin correction to settle at a small 
 nonzero value rather than returning fully to zero, even after drift has mostly 
-subsided. This is a common real-world PID tuning issue — reducing the integral 
+subsided. This is a common real-world PID tuning issue, reducing the integral 
 gain (Ki) would reduce this lingering offset.
